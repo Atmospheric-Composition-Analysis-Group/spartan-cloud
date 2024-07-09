@@ -35,7 +35,7 @@ html_theme_options = {
     'logo_only': True,
     'collapse_navigation': False,
 }
-html_logo = 'spartan.logo.webp'
+html_logo = 'spartan.logo.png'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'

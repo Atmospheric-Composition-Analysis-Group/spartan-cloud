@@ -1,9 +1,6 @@
-Template for the Read the Docs tutorial
+SPARTAN data on AWS tutorial
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+This GitHub repo maintains the readthedoc for SPARTAN-cloud. 
 
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+Found more about SPARTAN: https://www.spartan-network.org/

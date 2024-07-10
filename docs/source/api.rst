@@ -8,7 +8,9 @@ If this is your first time working with AWS, you need to set up your AWS account
 .. _s3:
 Using S3 & data egress charge
 ------------
-Once your account is verified and you are signed in to your console, you can find SPARTAN data through the S3 storage under the 'Services' tab on the top left of your screen. Below is a screenshot showing the locations.  
+Once your account is verified and you are signed in to your console, you can find SPARTAN data through the S3 storage under the 'Services' tab on the top left of your screen. Below is a screenshot showing the locations. 
+
+.. figure:: img/aws_console_s3.png
 
 You can either download the data (egress) or work on the data on cloud. The data egress fee on AWS is $0.09/GB with `discount for researchers <https://aws.amazon.com/blogs/publicsector/aws-offers-data-egress-discount-to-researchers/>`_. Experienced cloud users can work on the data through AWS computing services without downloading them. 
 

@@ -1,4 +1,5 @@
-
+SPARTAN data citation policy
+=====
 .. _citation-policy:
 SPARTAN data citation policy
 ----------------

@@ -1,33 +1,46 @@
 SPARTAN data types
 =====
 
-.. _Overview:
-
-Overview
+.. _commonality:
+Commonality
 ------------
+All products are presented as CSV files and reported by sites. At the beginning of each file, there is a data version and date of update. Basic site information (name, location, etc) is provided at the first few columns of the file, followed by the dates of the samples. Because some samples applied the `9-day sampling method <>`, some files give the start and end dates of the sample. The reported variables can be identified by either Parameter_Name or Parameter_Code. The last few columns provide information on the methodology and quality check. A comprehensive list of the methodologies is `here <>`. 
 
-SPARTAN provides open access, pre-generated data sets from all of our sites, started in 2012. Currently, there are 29 active sites (as of Dec 2023). 
+The following sections give brief introductions and examples of each data type. 
 
-SPARTAN sites are intentionally colocated with AERONET Sunphotometers to provide the only global dataset that directly connects ground-based PM2.5 and satellite remote sensing. In addition to filter-based PM\ :sub:`2.5`\  and PM\ :sub:`10`\  mass, SPARTAN also measures the chemical composition using IC, XRF, SSR, etc. Our SOPs can be found `here <https://www.spartan-network.org/standard-operating-procedures>`_. Measured chemical compostion together with total mass are reported in our :ref:`speciation product <speciation>`. We also reconstruct fine particulate matter into commonly studied chemical groups and repored with the :ref:`reconstructed fine mass product <RCFM>`. Aerosol scattering is also measured and :ref:`reported as our Nephelometer product <Neph>`. When both PM2.5 and fine aerosol scattering data are available, :ref:`time-resolved product <time-resolved>` at daily and hourly resolution are reported. All products are presented as csv files and reported by site. 
+Additional information on the sites can be found on the `Site Info Sheet <>`.
 
-SPARTAN is a grass-roots network run by individual scientists who share their measurements as a public good. We request that you consult :ref:`our citation policy <citation-policy>` to credit developers when including SPARTAN data in your publications.
 
 .. _Speciation:
 PM2.5 & PM10 speciation
 ----------------
+The PM2.5 & PM10 speciation product report the direct measurements of total mass and chemical composition including water soluble ions from IC, trace elements from XRF and ICPMS, carbons from SSR, HIPS, and FTIR. Relevant SOPs are reported on the `official SPARTAN website <https://www.spartan-network.org/standard-operating-procedures>`_. 
 
+.. literalinclude:: FilterBased_ChemSpecPM25_AEAZ_example.csv
+   :language: text
 
 .. _RCFM:
 Reconstructed Fine Mass
 ----------------
+The reconstructed fine mass builds on the speciation data to provide estimation of ammoniated sulfate, ammonium nitrate, sea salt, fine soil (dust), equivalent BC/EC, trace element oxides, and residual matters (assumed to be organics). Based on the estimated composition, the k-Kohler constant can also be estiamted. More can be found in the `SOP <https://www.spartan-network.org/_files/ugd/6321a4_55403d40877b4be7a06064fe1244d891.pdf>`_. 
+
+.. literalinclude:: FilterBased_ReconstrPM25_AEAZ_example.csv
+   :language: text
 
 .. _Neph:
 Nephelometer data
 ----------------
+Nephelometer scatter data provide high temporal resolution information and particle size information, offering unique insights for satellite remote sensing. Details on the operation is reported `here <https://www.spartan-network.org/_files/ugd/6321a4_d2614db581494ba0a10d17ccbc9f8a6c.pdf>`_. 
+
+.. literalinclude:: NephelProcd_HourlyScaPM10_AEAZ_example.csv
+   :language: text
 
 
 .. _time-resolved:
 Time resolved PM2.5 
 ----------------
+We constrain the Nephelometer data with filter based mass concentration to yield the daily and hourly resolved products. The procudure is reported `here <https://www.spartan-network.org/_files/ugd/6321a4_7437804cc21c40d9aff1502ff342b4a5.pdf>`.
+.. literalinclude:: TimeResPM25_HourlyEstPM25_AEAZ_example.csv
+   :language: text
 
 

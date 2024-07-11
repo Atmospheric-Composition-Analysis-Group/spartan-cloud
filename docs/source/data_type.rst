@@ -8,7 +8,7 @@ All products are presented as CSV files and reported by sites. At the beginning 
 
 The following sections give brief introductions and examples of each data type. 
 
-Additional information on the sites can be found on the :download:`Site Info Sheet <files/Site_details.xlsx>`.
+Additional information on the sites can be found on the :download:`Site Details Sheet <files/Site_details.xlsx>`.
 
 .. _Speciation:
 PM2.5 & PM10 speciation

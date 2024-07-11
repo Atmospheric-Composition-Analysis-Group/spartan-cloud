@@ -12,5 +12,5 @@ Once your account is verified and you are signed in to your console, you can fin
 
 .. figure:: img/aws_console_s3.png
 
-You can either download the data (egress) or work on the data on cloud. The data egress fee on AWS is $0.09/GB with `discount for researchers <https://aws.amazon.com/blogs/publicsector/aws-offers-data-egress-discount-to-researchers/>`_. Experienced cloud users can work on the data through AWS computing services without downloading them. 
+You can either download the data (egress) or work on the data on cloud. The data egress fee on AWS is $0.09/GB with `discount for researchers <https://aws.amazon.com/blogs/publicsector/aws-offers-data-egress-discount-to-researchers/>`_. The current size for all SPARTAN data is less than 200M, so the cost of downloading is negligible. Experienced cloud users can work on the data through AWS computing services without downloading them. 
 

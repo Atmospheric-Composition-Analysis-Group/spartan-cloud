@@ -11,9 +11,9 @@ The following sections give brief introductions and examples of each data type.
 Additional information on the sites can be found on the :download:`Site Details Sheet <files/Site_details.xlsx>`.
 
 .. _Speciation:
-PM\ :sub:`2.5`\ & PM\ :sub:`10`\ speciation
+PM\ :sub:`2.5`\  & PM\ :sub:`10`\  speciation
 ----------------
-The PM\ :sub:`2.5`\ & PM\ :sub:`10`\ speciation product report the direct measurements of total mass and chemical composition including water soluble ions from IC, trace elements from XRF and ICPMS, carbons from SSR, HIPS, and FTIR. `Relevant SOPs <https://www.spartan-network.org/standard-operating-procedures>`_  are reported on the official SPARTAN website. 
+The PM\ :sub:`2.5`\  & PM\ :sub:`10`\  speciation product report the direct measurements of total mass and chemical composition including water soluble ions from IC, trace elements from XRF and ICPMS, carbons from SSR, HIPS, and FTIR. `Relevant SOPs <https://www.spartan-network.org/standard-operating-procedures>`_  are reported on the official SPARTAN website. 
 
 .. literalinclude:: files/FilterBased_ChemSpecPM25_AEAZ_example.csv
    :language: text

@@ -1,8 +1,7 @@
-SPARTAN data citation policy
-=====
 .. _citation-policy:
-SPARTAN data citation policy
-----------------
+Data citation policy
+=====
+
 Each site has Principal Investigator(s) (PI) who is responsible for instrument operation. PI contact information can be found on the `SPARTAN website <https://www.spartan-network.org/data>`_. We encourage you to contact the site PI when data for a particular site are used. Data from all sites are analyzed at Washington University in St. Louis for mass and composition. We also encourage you to contact Chris Oxford and Randall Martin at SPARTAN.PM25@gmail.com when SPARTAN data are used.
 
 We recommend the following citations for use of SPARTAN data for referencing our sampling methods and data analysis techniques:

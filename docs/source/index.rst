@@ -16,6 +16,6 @@ Contents
 
 .. toctree::
 
-   api
-   usage
+   first_time_users
+   data_type
    citation

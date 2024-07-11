@@ -11,9 +11,9 @@ The following sections give brief introductions and examples of each data type.
 Additional information on the sites can be found on the :download:`Site Details Sheet <files/Site_details.xlsx>`.
 
 .. _Speciation:
-PM2.5 & PM10 speciation
+PM\ :sub:`2.5`\ & PM\ :sub:`10`\ speciation
 ----------------
-The PM2.5 & PM10 speciation product report the direct measurements of total mass and chemical composition including water soluble ions from IC, trace elements from XRF and ICPMS, carbons from SSR, HIPS, and FTIR. Relevant SOPs are reported on the `official SPARTAN website <https://www.spartan-network.org/standard-operating-procedures>`_. 
+The PM\ :sub:`2.5`\ & PM\ :sub:`10`\ speciation product report the direct measurements of total mass and chemical composition including water soluble ions from IC, trace elements from XRF and ICPMS, carbons from SSR, HIPS, and FTIR. `Relevant SOPs <https://www.spartan-network.org/standard-operating-procedures>`_  are reported on the official SPARTAN website. 
 
 .. literalinclude:: files/FilterBased_ChemSpecPM25_AEAZ_example.csv
    :language: text
@@ -21,7 +21,7 @@ The PM2.5 & PM10 speciation product report the direct measurements of total mass
 .. _RCFM:
 Reconstructed Fine Mass
 ----------------
-The reconstructed fine mass builds on the speciation data to provide estimation of ammoniated sulfate, ammonium nitrate, sea salt, fine soil (dust), equivalent BC/EC, trace element oxides, and residual matters (assumed to be organics). Based on the estimated composition, the k-Kohler constant can also be estiamted. More can be found in the `SOP <https://www.spartan-network.org/_files/ugd/6321a4_55403d40877b4be7a06064fe1244d891.pdf>`_. 
+The reconstructed fine mass builds on the speciation data to provide estimation of ammoniated sulfate, ammonium nitrate, sea salt, fine soil (dust), equivalent BC/EC, trace element oxides, and residual matters (assumed to be organics). Based on the estimated composition, the k-Kohler constant can also be estiamted. More can be found in the `RCFM SOP <https://www.spartan-network.org/_files/ugd/6321a4_55403d40877b4be7a06064fe1244d891.pdf>`_. 
 
 .. literalinclude:: files/FilterBased_ReconstrPM25_AEAZ_example.csv
    :language: text
@@ -36,7 +36,7 @@ Nephelometer scatter data provide high temporal resolution information and parti
 
 
 .. _time-resolved:
-Time resolved PM2.5 
+Time resolved PM\ :sub:`2.5`\ 
 ----------------
 We constrain the Nephelometer data with filter based mass concentration to yield the daily and hourly resolved products. The procudure is reported `here <https://www.spartan-network.org/_files/ugd/6321a4_7437804cc21c40d9aff1502ff342b4a5.pdf>`_.
 

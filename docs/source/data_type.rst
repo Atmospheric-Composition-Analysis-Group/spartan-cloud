@@ -15,7 +15,7 @@ PM\ :sub:`2.5`\  & PM\ :sub:`10`\  speciation
 ----------------
 The PM\ :sub:`2.5`\  & PM\ :sub:`10`\  speciation product report the direct measurements of total mass and chemical composition including water soluble ions from IC, trace elements from XRF and ICPMS, carbons from SSR, HIPS, and FTIR. `Relevant SOPs <https://www.spartan-network.org/standard-operating-procedures>`_  are reported on the official SPARTAN website. 
 
-.. literalinclude:: files/FilterBased_ChemSpecPM25_AEAZ_example.xlsx
+.. literalinclude:: files/FilterBased_ChemSpecPM25_AEAZ_example.csv
    :language: text
 
 .. _RCFM:
@@ -24,7 +24,7 @@ Reconstructed Fine Mass
 The reconstructed fine mass builds on the speciation data to provide estimation of ammoniated sulfate, ammonium nitrate, sea salt, fine soil (dust), equivalent BC/EC, trace element oxides, and residual matters (assumed to be organics). Based on the estimated composition, the k-Kohler constant can also be estiamted. More can be found in the `RCFM SOP <https://www.spartan-network.org/_files/ugd/6321a4_55403d40877b4be7a06064fe1244d891.pdf>`_. 
 
 .. literalinclude:: files/FilterBased_ReconstrPM25_AEAZ_example.csv
-   :language: table
+   :language: text
 
 .. _Neph:
 Nephelometer data

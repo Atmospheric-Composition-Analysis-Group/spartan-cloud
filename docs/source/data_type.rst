@@ -4,12 +4,11 @@ SPARTAN data types
 .. _commonality:
 Commonality
 ------------
-All products are presented as CSV files and reported by sites. At the beginning of each file, there is a data version and date of update. Basic site information (name, location, etc) is provided at the first few columns of the file, followed by the dates of the samples. Because some samples applied the `9-day sampling method <>`, some files give the start and end dates of the sample. The reported variables can be identified by either Parameter_Name or Parameter_Code. The last few columns provide information on the methodology and quality check. A comprehensive list of the methodologies is `here <>`. 
+All products are presented as CSV files and reported by sites. At the beginning of each file, there is a data version and date of update. Basic site information (name, location, etc) is provided at the first few columns of the file, followed by the dates of the samples (see section 3.2.1 in `this paper <https://amt.copernicus.org/articles/8/505/2015/>`_ for description of our *9-day sampling method*). The reported variables can be identified by either Parameter_Name or Parameter_Code. The last few columns provide information on the methodology and quality check. A comprehensive list of the methodologies is :download:`here <files/Sampling_Parameters_Methods_2.3.xlsx>`. 
 
 The following sections give brief introductions and examples of each data type. 
 
-Additional information on the sites can be found on the `Site Info Sheet <>`.
-
+Additional information on the sites can be found on the :download:`Site Info Sheet <files/Site_details.xlsx>`.
 
 .. _Speciation:
 PM2.5 & PM10 speciation

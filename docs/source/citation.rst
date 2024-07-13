@@ -8,7 +8,9 @@ Each site has Principal Investigator(s) (PI) who is responsible for instrument o
    We recommend the following citations for use of SPARTAN data for referencing our sampling methods and data analysis techniques::
    
    SPARTAN: a global network to evaluate and enhance satellite-based estimates of ground-level particulate matter for global health applications Snider, G. et al. : Atmos. Meas. Tech., 8, 505-521, 2015 , doi:10.5194/amt-8-505-2015.
+   
    Variation in Global Chemical Composition of PM2.5: Emerging Results from SPARTAN Snider, G., et al.: Atmos. Chem. Phys. 16, 9629-9653, 2016 doi:10.5194/acp-16-9629-2016.
+   
    Large global variation in measured airborne metal concentrations driven by anthropogenic sources McNeill, J. et al. : Sci. Rep., 10, 21817, 2020 doi: https://doi.org/10.1038/s41598-020-78789-y
 
 When publishing data from a few sites

@@ -17,6 +17,7 @@ Once your account is verified and you are signed in to your console, you can fin
 You can either download the data (egress) or work on the data on cloud. The data egress fee on AWS is $0.09/GB with `discount for researchers <https://aws.amazon.com/blogs/publicsector/aws-offers-data-egress-discount-to-researchers/>`_. The current size for all SPARTAN data is less than 200M, so the cost of downloading is negligible. Experienced cloud users can work on the data through AWS computing services without downloading them. 
 
 .. _cli:
-The easiest way to download data from AWS is through the AWS Command Line Interface (AWS CLI). After `installing <https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html>`_ and `configuring<https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html>`_ AWS CLI, you can download SPARTAN data using a one-line command in a terminal: 
+The easiest way to download data from AWS is through the AWS Command Line Interface (AWS CLI). After `installing <https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html>`_ and `configuring <https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html>`_ AWS CLI, you can download SPARTAN data using a one-line command in a terminal: 
+
 .. code-block:: sh
-aws s3 cp --no-sign-request s3://spartan-cloud/GroupByProduct/ ./path/to/your/local/directory/ --recursive
+  $ aws s3 cp --no-sign-request s3://spartan-cloud/GroupByProduct/ ./path/to/your/local/directory/ --recursive
